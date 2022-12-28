@@ -1,0 +1,28 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Базовый стиль */
+.circle{ 
+width: 200px;
+height: 200px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+background: red;
+}
+.circle_2{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,33,172,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.circle_3{
+    border: 3px solid black;
+}
+.circle_4:hover{
+    background-color: aqua;
+}
+.circle_5{
+    border: 3px dotted black;
+}
+.circle_6:hover{
+    opacity: 0.4;
+}
